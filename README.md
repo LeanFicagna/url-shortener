@@ -17,6 +17,7 @@ Essa rota retornar alguns atributos, entre eles o `shortURL` que contém a URL e
 ![image](https://user-images.githubusercontent.com/64813850/159940766-71a06216-7677-47e1-8181-554747f48ae6.png)
 
 ## 🔨Ferramentas
+- TypeScript
 - Node.js
   - Express
 - MongoDB
