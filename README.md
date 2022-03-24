@@ -5,8 +5,9 @@ Construir uma aplicação que possibilite gravar URLs encurtadas em um banco de 
 1. Instale o Node e o NPM (ou yarn, conforme prefira).
 2. Clone o repositório com o comando: `git clone https://github.com/LeanFicagna/url-shortener`.
 3. Use o comando `npm install` ou `yarn install` para baixar as depedências necessárias.
-4. Transpile o código TypeScript para JavaScript: `npm run build:watch` ou `yarn build:watch`
-5. Rode o projeto: `npm run dev` ou `yarn dev`
+4. Configure o link de acesso ao seu MongoDB no arquivo `src/config/Constants.ts` modificando a constante `MONGO_CONNECTION`
+5. Transpile o código TypeScript para JavaScript: `npm run build:watch` ou `yarn build:watch`
+6. Rode o projeto: `npm run dev` ou `yarn dev`
 
 ## Encurtando uma url:
 Utilize algum API Cliente, configure método POST para a rota `localhost:5000/shorten` enviando um JSON com o atributo originURL com a URL que você quer minificar,
